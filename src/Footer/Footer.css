@@ -1,0 +1,28 @@
+.footer-container {
+        height: 250px;
+        margin: 80px;
+        overflow: hidden;
+}
+
+.footer-container h2 {
+    font-size: 35px;
+}
+
+.whatsapp-contact,
+.phone-contact {
+    display: flex;
+    align-items: center;
+    margin: 24px;
+}
+
+.whatsapp-contact p,
+.phone-contact p {
+    margin: 0 10px; 
+}
+
+@media (max-width: 425px) {
+    .contact-details {
+        width: 300px;
+    }
+}
+

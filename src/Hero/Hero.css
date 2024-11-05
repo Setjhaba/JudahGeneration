@@ -1,0 +1,24 @@
+.hero-container {
+    display: flex;
+    height: 550px;
+    justify-content:flex-start;
+    align-items: center;
+    background-image: url("/assets/IMG-20241029-WA0038.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin: 0 -10px;
+    overflow: hidden;
+}
+
+.hero-container .hero-image {
+    height: 300px;
+    width: 300px;
+    margin: 0 96px;
+}
+
+.hero-container p {
+    margin: 0 96px;
+    font-size: 25px;
+}

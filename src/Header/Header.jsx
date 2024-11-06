@@ -28,7 +28,6 @@ function Header() {
                     <ul className="navbar-list">
                         <li><Link to="about" spy={true} smooth={true} offset={-150} duration={500}>About</Link></li>
                         <li><Link to="services" spy={true} smooth={true} offset={-100} duration={500}>Services</Link></li>
-                        <li><Link to="partners" spy={true} smooth={true} offset={-300} duration={500}></Link>Partners</li>
                         <li><Link to="contact" spy={true} smooth={true} offset={-300} duration={500}>Contact</Link></li>
                     </ul>
                     

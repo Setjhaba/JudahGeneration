@@ -32,13 +32,35 @@
 
 @media (max-width: 768px) {
     .services-container {
+        height: 500px;
         margin-top: 200px;
+    }
+
+    .services-container h2 {
+        margin-left: 60px;
+    }
+
+    .services-container .services-content {
+        margin-left: 60px;
     }
 }
 
-@media (max-width: 643px) {
+@media (max-width: 699px) {
     .services-container {
-        margin-top: 350px;
+        margin-top: 325px;
+    }
+}
+
+@media (max-width: 639px) {
+    .services-container {
+        margin-top: 375px;
+    }
+}
+
+@media (max-width: 539px) {
+    .services-container {
+        height: fit-content;
+        margin-top: 450px;
     }
 }
 

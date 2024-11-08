@@ -61,6 +61,23 @@
     }
 }
 
+@media (min-width: 320px) and (max-width: 425px) {
+    .services-container {
+        height: fit-content;
+    }
+    .services-container h2{
+        margin-left: 40px;
+    }
+
+    .services-container .services-content {
+        display: grid;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-left: 50px;
+        width: 300px;
+    }
+}
+
 
 
 

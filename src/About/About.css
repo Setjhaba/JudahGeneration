@@ -46,3 +46,18 @@
         margin-left: -50px;
     }
 }
+
+@media (min-width:320px) and (max-width:768px) {
+    .about-container {
+        margin-left: 25px;
+        height: fit-content;
+        margin-bottom: 25px;
+    }
+
+    .about-container p {
+        font-size: 20px;
+        margin-left: 30px;
+        margin-top: 15px;
+        width: 300px;
+    }
+}

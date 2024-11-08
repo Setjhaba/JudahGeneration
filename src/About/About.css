@@ -43,7 +43,7 @@
     }
 
     .about-container h2 {
-        margin-left: -50px;
+        margin-left: -10px;
     }
 }
 
@@ -55,9 +55,9 @@
     }
 
     .about-container p {
-        font-size: 20px;
-        margin-left: 30px;
+        font-size: 17px;
+        margin: 0 10px;
         margin-top: 15px;
-        width: 300px;
+        
     }
 }

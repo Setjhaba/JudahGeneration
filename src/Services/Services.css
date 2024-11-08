@@ -73,8 +73,7 @@
         display: grid;
         font-size: 15px;
         margin-top: 15px;
-        margin-left: 50px;
-        width: 300px;
+        margin: 0 40px;
     }
 }
 

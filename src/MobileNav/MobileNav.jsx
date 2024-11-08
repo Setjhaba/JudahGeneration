@@ -21,11 +21,11 @@ const MobileNav = ({ isOpen, toggleMenu}) => {
                     </li>
 
                     <li>
-                    <Link to="about" className="menu-item" spy={true} smooth={true} offset={-150} duration={500}>Services</Link>
+                    <Link to="services" className="menu-item" spy={true} smooth={true} offset={-150} duration={500}>Services</Link>
                     </li>
 
                     <li>
-                        <Link to="about" className="menu-item" spy={true} smooth={true} offset={-150} duration={500}>Contact</Link>
+                        <Link to="contact" className="menu-item" spy={true} smooth={true} offset={-150} duration={500}>Contact</Link>
                     </li>
                 </ul>
                 

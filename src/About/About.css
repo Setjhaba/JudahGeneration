@@ -17,14 +17,32 @@
     line-height: 32px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .about-container {
+        height: 350px;
         margin: 0 40px;
+    }
+
+    .about-container p {
+        margin-top: 48px;
+    }
+
+    .about-container h2 {
+        margin-left: 30px;
     }
 }
 
-@media (max-width: 425px) {
+@media (min-width: 425px) and (max-width: 768px) {
+    .about-container {
+        height: 550px;
+    }
+    
     .about-container p {
-        margin: 0 10px;
+        font-size: 20px;
+        margin: 0 -10px;
+    }
+
+    .about-container h2 {
+        margin-left: -50px;
     }
 }

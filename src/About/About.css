@@ -34,20 +34,25 @@
 
 @media (min-width: 425px) and (max-width: 768px) {
     .about-container {
-        height: 550px;
+        height: auto;
     }
     
     .about-container p {
         font-size: 20px;
-        margin: 0 -10px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:0 10px;
+        
     }
 
     .about-container h2 {
-        margin-left: -10px;
+        margin-left: -50px;
     }
 }
 
-@media (min-width:320px) and (max-width:768px) {
+@media (min-width:320px) and (max-width: 425px) {
     .about-container {
         margin-left: 25px;
         height: fit-content;
@@ -59,5 +64,9 @@
         margin: 0 25px;
         margin-top: 15px;
         width: 300px;
+    }
+
+    .about-container h2 {
+        margin-left: 5px;
     }
 }
